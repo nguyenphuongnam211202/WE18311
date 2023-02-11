@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(231, 18, 18); 
+}
+
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="subnav">
+    <button class="subnavbtn">VIỆT NAM<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <div style=" list-style-type: none;
+        text-align: center;">
+          <ul class="vmenu">
+            <li><a href="#">AFF</a></li>
+            <li><a href="#">V-Laguage</a></li>
+            <li><a href="#">AFF Cup</a></li>
+            <li><a href="#">AFF Laguage</a></li>
+           </ul>
+          </div>
+    </div>
+  </div>   <div class="subnav">
+    <button class="subnavbtn">CHAMPIONS LEAGUE </button>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">ANH</button>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">TÂY BAN NHA</button>
+  
+  </div>
+</div>
+</body>
+</html>
