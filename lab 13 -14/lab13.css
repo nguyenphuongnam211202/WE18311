@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+	color: #333;
+	text-align: center;
+	margin-top: 30px;
+}
+
+p {
+	font-size: 20px;
+	color: #666;
+	text-align: justify;
+	margin: 30px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+.fb-like {
+	display: block;
+	margin: 20px auto;
+}
